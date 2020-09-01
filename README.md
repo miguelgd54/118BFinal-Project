@@ -2,4 +2,4 @@
 
 In this project, we compared the performance of different classifiers in a binary classificationtask.  The goal was to predict if a person makes more or less than 50 k per year, given aset of categorical and continuous attributes.  The algorithms which we used were supportvector machines with linear kernel (SVM) and multilayer perceptrons with different activationfunctions. Testing accuracy was around 0.86 for all classifiers except for SVM with automated correction for class imbalance which had significantly lower testing accuracy. Training and testing accuracies were similar for all classifiers, indicating good generalization from trainingto test data.  The biggest challenge consisted in the imbalance in the data set, resultingin relatively poor recall rates and, consequently, low F1 scores. Using sklearn’s automated correction for class imbalance improved recall but at the cost of lowering precision. 
 
-Please see "COGS 118b final report.pdf" for the full paper.
+Please see "COGS 118b final report.pdf" for the full paper. The above is an excerpt from the paper.
